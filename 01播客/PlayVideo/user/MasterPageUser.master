@@ -1,0 +1,183 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageUser.master.cs" Inherits="user_MasterPageUser" %>
+<%@ Register Src="../webUser/Top.ascx" TagName="Top" TagPrefix="uc1" %>
+<%@ Register Src="../webUser/Search.ascx" TagName="Search" TagPrefix="uc2" %>
+<%@ Register Src="../webUser/WebUserControlUserLogin.ascx" TagName="WebUserControlUserLogin"
+    TagPrefix="uc3" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>无标题页</title>
+    <script>
+        function videoManage()
+        {
+            document.getElementById('vidoM').style.display='none';
+        }
+    </script>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style>
+    <link href="../css/css.css" rel="stylesheet" type="text/css" />
+    <link href="css/css.css" rel="stylesheet" type="text/css" />
+    <link href="css/css.css" rel="stylesheet" type="text/css" />
+    <link href="css/css.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div style="text-align: center; padding-right: 0px; padding-left: 0px; margin: 0px; clip: rect(auto auto auto auto); padding-top: 0px;">        
+    <table background="../images/midbg_02.jpg"width="900" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="160"  rowspan="3"><img src="../images/mrbkw.jpg"   style="width: 160px; height:77px" /></td>
+    <td width="740" height="39" align="right" class="chengse">
+        <uc3:WebUserControlUserLogin ID="WebUserControlUserLogin2" runat="server" />
+    </td>
+  </tr>
+  <tr>
+    <td   >  
+        <uc2:Search ID="Search1" runat="server" />
+    </td>
+  </tr>
+  <tr>
+    <td height="2"></td>
+  </tr>
+</table>
+
+
+
+<table width="900" height="67" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td valign="top" >
+        <uc1:Top ID="Top2" runat="server" />
+    </td>
+  </tr>
+</table>
+
+
+
+<table width="900" height="166" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="484" valign="top"><table width="704" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td valign="top"><table width="710" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="153" height="14" valign="top">
+                      <span class="hongcu"></span>  
+                        
+                        
+                        
+                        
+                        <table border="1" cellspacing="0" cellpadding="0" style="width: 130px">
+      <tr>
+        <td width="130" height="32" colspan="2" valign="top" style="text-align: center"><img src="../images/gl1_02.jpg" height="32" style="width: 130px" /></td>
+      </tr>
+      <tr>
+        
+        <td height="300" align="center" valign="top" ><br />
+                      
+                       
+                            <asp:TreeView ID="TreeView1" runat="server" CssClass="shenhong">
+                                <Nodes>
+                                    <asp:TreeNode Text="我的视频" Value="我饿视频">
+                                        <asp:TreeNode Text="已上传" Value="已上传" NavigateUrl="~/user/userIndex.aspx"></asp:TreeNode>
+                                        <asp:TreeNode Text="上传" Value="上传" NavigateUrl="~/user/upVideo.aspx"></asp:TreeNode>
+                                    </asp:TreeNode>
+                                    <asp:TreeNode Text="我的评论" Value="我的评论" NavigateUrl="~/user/userIdea.aspx"></asp:TreeNode>
+                                    <asp:TreeNode Text="个人信息" Value="个人信息" Expanded="True" Selected="True">
+                                        <asp:TreeNode Text="修改信息" Value="修改信息" NavigateUrl="~/user/amendInfo.aspx"></asp:TreeNode>
+                                        <asp:TreeNode Text="修改密码" Value="修改密码" NavigateUrl="~/user/amendPass.aspx"></asp:TreeNode>
+                                    </asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/index.aspx" Text="返回首页" Value="返回首页"></asp:TreeNode>
+                                </Nodes>
+                            </asp:TreeView>
+          </td>
+      </tr>
+
+    </table>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                &nbsp;&nbsp;
+                            </td>
+            <td width="555" align="center" valign="top">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+                    </td>
+          </tr>
+        </table></td>
+        </tr>
+    </table>
+      <table width="704" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="5"></td>
+        </tr>
+      </table>
+    </td>
+    <td width="414" valign="top">
+    <table width="189"  align="center" cellpadding="0" cellspacing="0">
+        <tr valign="top" >
+          <td height="5" align="center"><img src="../images/line.gif" width="174" height="360" border="0" usemap="#Map2" /></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+
+<table width="900" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="2" align="center" bgcolor="#C7CED4"></td>
+  </tr>
+  <tr>
+    <td height="25" width="900" align="left" valign="middle" background="../images/end1_08.jpg" bgcolor="#F9FAFC">　　　　　　　　　　　　　　　　明日主站|明日图书|明日软件|明日编程词典网|明日论坛|招贤纳士|<asp:LinkButton ID="LinkButton1"  runat="server" PostBackUrl="~/manage/manage_login.aspx" Font-Underline="False">后台登录</asp:LinkButton></td>
+  </tr>
+  <tr>
+    <td height="80"><img src="../images/end2_09.jpg" width="900" height="80" /></td>
+  </tr>
+</table>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+        </div>
+        <br />
+    </div>
+    </form>
+</body>
+</html>
