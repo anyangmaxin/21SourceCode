@@ -1,0 +1,107 @@
+﻿body 
+{
+	font-family: "Tahoma";
+	font-size:9pt;
+}
+
+.Text
+{
+	font-size:small;
+}
+
+.Table
+{
+	width: 100%;
+	font-size: 9pt;
+	border-right: #73acf5 thin solid;
+	border-top: #73acf5 thin solid;
+	border-left: #73acf5 thin solid;
+	border-bottom: #73acf5 thin solid;
+	font-family: Tahoma;
+	border-collapse:collapse;
+}
+
+.TableTitle
+{
+	width: 100%;
+	border-collapse: collapse;
+	font-family: Tahoma;
+	font-size: 9pt;
+	font-weight: bold;
+	color:Blue;
+}	
+
+.LeftTD
+{
+	border-width:1;	
+	height:30;
+	border-collapse:collapse;
+	font-family: Tahoma;
+}
+
+.RightTD
+{
+	border:1;
+	border-width:1;
+	border-left-color:#184073;
+	margin-left:10;
+	height:30;
+	border-collapse:collapse;
+	font-family: Tahoma;
+}
+
+.Button
+{
+    font-family: "Tahoma";
+    font-size: 9pt; color: #003399;
+    border: 1px solid #93bee2;
+color:#006699;
+    background-image:url('../Images/bluebuttonbg.gif');
+    background-color: #e8f4ff;
+    CURSOR: hand;
+    font-style: normal;
+	}
+
+.TextBox
+{
+	font-family: "Tahoma";
+	font-size:9pt; 
+}
+
+.ListBox
+{
+	font-family: "Tahoma";
+	font-size:9pt;    
+}
+
+.ModuleTitle
+{
+	font:Tahoma;
+	font-size:10pt;
+}
+
+A
+{
+	font-size: 9pt;
+	color: #006699;
+	text-decoration: none;
+}
+A:ACTIVE
+{
+	color: red;
+	text-decoration: none;
+}
+A:FOCUS
+{
+	color: red;
+	text-decoration: none;
+}
+A:HOVER
+{
+	color: red;
+	text-decoration: underline;
+}
+A:LINK
+{	
+	text-decoration: none;
+}
