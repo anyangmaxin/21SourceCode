@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage_MasterPage" %>
+<%@ Register Src="../control/AdminHeader.ascx" TagName="AdminHeader" TagPrefix="uc4" %>
+<%@ Register Src="../control/header.ascx" TagName="header" TagPrefix="uc1" %>
+<%@ Register Src="../control/foot.ascx" TagName="foot" TagPrefix="uc2" %>
+<%@ Register Src="../control/Tree.ascx" TagName="Tree" TagPrefix="uc3" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>企业门户网站</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table style=>
+            <tr>
+                <td colspan="1" style="width: 97px">
+                </td>
+                <td align="center" colspan="1">
+                </td>
+                <td colspan="6" align="center">
+                    <uc4:AdminHeader ID="AdminHeader1" runat="server" />
+                    &nbsp;</td>
+                <td style="width: 98px">
+                </td>
+                <td style="width: 4px">
+                </td>
+                <td colspan="1" rowspan="2" style="width: 3px">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3" style="width: 97px">
+                </td>
+                <td rowspan="3" style="width: 143px">
+                </td>
+                <td rowspan="3" style="width: 122px" align="center">
+                    &nbsp;<uc3:Tree ID="Tree1" runat="server" />
+                </td>
+                <td colspan="5" rowspan="3">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </asp:contentplaceholder>
+                </td>
+                <td style="width: 98px">
+                </td>
+                <td style="width: 4px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 98px">
+                </td>
+                <td style="width: 4px">
+                </td>
+                <td style="width: 3px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 98px">
+                </td>
+                <td style="width: 4px">
+                </td>
+                <td style="width: 3px">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="1" style="width: 97px">
+                </td>
+                <td colspan="1">
+                </td>
+                <td colspan="6">
+                    <uc2:foot ID="Foot1" runat="server" />
+                </td>
+                <td style="width: 98px">
+                </td>
+                <td style="width: 4px">
+                </td>
+                <td style="width: 3px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 97px">
+                </td>
+                <td style="width: 143px">
+                </td>
+                <td style="width: 122px">
+                </td>
+                <td style="width: 71px">
+                </td>
+                <td style="width: 100px">
+                </td>
+                <td style="width: 100px">
+                </td>
+                <td style="width: 100px">
+                </td>
+                <td style="width: 195px">
+                </td>
+                <td style="width: 98px">
+                </td>
+                <td style="width: 4px">
+                </td>
+                <td style="width: 3px">
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

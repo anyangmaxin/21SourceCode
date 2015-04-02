@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Hardware>
+  <Item Category="XML企业门户平台">
+    <Option Choice="进入网站首页" Url="../Default.aspx"/>
+    <Option Choice="用户管理" Url="../AdminUser/AdminUser.aspx">
+      <leaf son="用户信息添加" Url="../AdminUser/AdminUser_Add.aspx"/>
+    </Option>
+    <Option Choice="用户查找" Url="../AdminSearch/AdminSearch_User.aspx"/>
+    <Option Choice="管理用户头像"  Url="../Admintouxiang/Admintouxiang.aspx">
+      <leaf son="添加头像" Url="../Admintouxiang/UpTouxiang.aspx"/>
+    </Option>
+    <Option Choice="公告管理"  Url="../AdminGongGao/AdminGongGao.aspx">
+      <leaf son="添加公告" Url="../AdminGongGao/AdminGongGao_Add.aspx"/>
+    </Option>
+    <Option Choice="新闻管理中心"  Url="../AdminNew/AdminNew.aspx">
+      <leaf son="添加新闻" Url="../AdminNew/AdminNew_Add.aspx"/>
+    </Option>
+    <Option Choice="留言本管理" Url="../AdminLeaveWord/AdminLeaveWord.aspx">
+    </Option>
+    <Option Choice="产品资源下载管理" Url="../AdminTools/AdminTools.aspx">
+      <leaf son="添加产品信息" Url="../AdminTools/AdminTools_Add.aspx"/>
+    </Option>
+    <Option Choice="产品类别管理" Url="../AdminLeibie/AdminLeibie.aspx">
+        <leaf son="产品类别添加" Url="../AdminLeibie/AdminLeibie_ADD.aspx"/>
+    </Option>
+    <Option Choice="友情链接管理" Url="../AdminFriendLink/AdminFriendLink.aspx">
+      <leaf son="添加友情链接" Url="../AdminFriendLink/AdminFriendLink_Add.aspx"/>
+     
+    </Option>
+    <Option Choice="忘记密码" Url="../Findpwd/Findpwd1.aspx"/>
+    <Option Choice="管理员重新登录" Url="../AdminLogin.aspx"/>
+    <Option Choice="安全退出" Url="../Default1.aspx"/>
+  </Item>
+</Hardware>
