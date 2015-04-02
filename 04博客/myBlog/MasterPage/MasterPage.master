@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage_MasterPage" %>
+<%@ Register Src="../UserControl/Footer.ascx" TagName="Footer" TagPrefix="uc3" %>
+<%@ Register Src="../UserControl/Header.ascx" TagName="Header" TagPrefix="uc1" %>
+<%@ Register Src="../UserControl/Footer.ascx" TagName="Footer" TagPrefix="uc2" %>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>无标题页</title>
+    <style type="text/css">
+        .style1
+        {
+            width: 98%;
+        }
+        .style2
+        {
+            width: 18px;
+        }
+    </style>
+</head>
+<body style="margin:0;border:0" class="Body">
+    <form id="form1" runat="server">
+  <%--  <table align="center" cellpadding="0" cellspacing="0" class="style1">
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td class="style2">
+                &nbsp;</td>
+            <td style="width: 9px">
+                &nbsp;</td>
+            <td>
+                &nbsp;&nbsp; &nbsp;</td>
+            <td align="center">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/Skin/head.jpg" /></td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td class="style2">
+                &nbsp;</td>
+            <td style="width: 9px">
+                &nbsp;</td>
+            <td colspan="2">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <p>
+                            &nbsp;</p>
+                    </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td class="style2">
+                &nbsp;</td>
+            <td style="width: 9px">
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+            <td align="center">
+                <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/Skin/bottom.jpg" /></td>
+        </tr>
+    </table>--%>
+        <table align="center" cellpadding="0" cellspacing="0" class="style1">
+        <tr>
+            <td align="center"><asp:Image ID="Image1" runat="server" ImageUrl="~/Images/Skin/head.jpg" /></td>
+        </tr>
+        <tr>
+            <td align="center">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <p>&nbsp;                            </p>
+                    </asp:ContentPlaceHolder>            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/Skin/bottom.jpg" /></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,68 @@
+.left {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	background-color: DBCAAE;
+
+}
+.body
+{
+	font-size: 12px;
+	clip: rect(0px auto auto auto);
+	background-color: DBCAAE;
+}
+.article {
+	font-size: 12px;
+    background-image: url(../images/title_bg.gif);
+}
+
+A:link
+{
+	color: black;
+	text-decoration: none;
+	font-size: 12px;
+}
+A:hover
+{
+	color: red;
+	text-decoration: none;
+	font-size: 12px;
+}
+A:active
+{
+	color:Black;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+A:visited
+{
+	text-decoration: none;
+	font-size: 12px;
+	color: #000000;
+
+}
+.input
+{
+	border-right: #003333 1px solid;
+	border-top: #003333 1px solid;
+	margin: 0px;
+	border-left: #003333 1px solid;
+	border-bottom: #003333 1px solid;
+	background-color: #99ccff;
+}
+content
+{
+	font-size: 12px;
+	color: black;
+}
+
+title
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: red;
+}
+.table {
+	font-size: 12px;
+}
