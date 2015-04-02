@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>无标题页</title>
+    <link href="style.css" rel="Stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server" />
+        <div id="box">
+          <div id="top"></div>
+          <div id="main">
+            <div id="m_left">
+              <div id="an01"><a href="ManageDefault.aspx"><img src="images/an_03.gif" width="160" height="57" border="0" alt="返回首页" /></a></div>
+              <div id="an02"><a href="Photo_load.aspx"><img src="images/an_21.gif" width="160" height="58" border="0" alt="上传照片" /></a></div>
+              <div id="an03"><a href="Category.aspx"><img src="images/an_b_32.gif" width="160" height="57" border="0" alt="创建相册" /></a></div>
+              <div id="an04"><a href="Manage.aspx"><img src="images/an_b_41.gif" width="160" height="58" border="0" alt="管理相册" /></a></div>
+              <div id="an05"><a href="LoginOut.aspx"><img src="images/liginout.gif" width="160" height="58" border="0" alt="管理相册" /></a></div>
+            </div>
+            <div id="m_right">
+              <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                    
+              </asp:ContentPlaceHolder>
+            </div>
+          </div>
+          <div id="foot"></div>
+        </div>        
+    </div>
+    </form>
+</body>
+</html>

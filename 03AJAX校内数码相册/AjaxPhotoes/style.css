@@ -1,0 +1,119 @@
+* {
+	border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size:12px;
+}
+#box {
+	height: 600px;
+	width: 900px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#top {
+	background-image: url(images/001_01.gif);
+	background-repeat: no-repeat;
+	height: 135px;
+	width: 900px;
+}
+#main {
+	height: 445px;
+	width: 900px;
+}
+#main_img {
+	height: 981px;
+	width: 900px;
+}
+#m_bottom {
+	background-image: url(images/005_05.gif);
+	background-repeat: no-repeat;
+	float: left;
+	height: 536px;
+	width: 900px;
+}
+
+#m_left {
+	float: left;
+	height: 445px;
+	width: 259px;
+	background-image: url(images/001_02.gif);
+	background-repeat: no-repeat;
+}
+#m_right {
+	float: left;
+	height: 445px;
+	width: 633px;
+	background-image: url(images/001_03.gif);
+	background-repeat: no-repeat;
+}
+#m_left_img {
+	float: left;
+	height: 445px;
+	width: 259px;
+	background-image: url(images/005_02.gif);
+	background-repeat: no-repeat;
+}
+#m_right_img {
+	float: left;
+	height: 445px;
+	width: 633px;
+	background-image: url(images/005_03.gif);
+	background-repeat: no-repeat;
+}
+
+
+#foot {
+	height: 20px;
+	width: 900px;
+	background-image: url(images/001_04.gif);
+	background-repeat: no-repeat;
+}
+#an01,#an02,#an03,#an04,#an05{
+	float: left;
+	height: 58px;
+	width: 204px;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 55px;
+}
+#right_01 {
+	background-image: url(images/002_03.gif);
+	background-repeat: no-repeat;
+	float: left;
+	height: 42px;
+	width: 633px;
+}
+#right_02 {
+	float: left;
+	height: 403px;
+	width: 633px;
+}
+#right_01_gl {
+	background-image: url(images/003_03.gif);
+	background-repeat: no-repeat;
+	float: left;
+	height: 42px;
+	width: 633px;
+}
+#right_02_gl {
+	float: left;
+	height: 403px;
+	width: 633px;
+}
+#right_01_sc {
+	background-image: url(images/004_03.gif);
+	background-repeat: no-repeat;
+	float: left;
+	height: 42px;
+	width: 633px;
+}
+#right_02_sc {
+	float: left;
+	height: 403px;
+	width: 633px;
+}
